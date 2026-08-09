@@ -1,3 +1,9 @@
+Sistema de gestión para emprendimientos (Pedidos + Clientes + Stock)
+
+Muchos emprendimientos pequeños venden por Instagram o WhatsApp y llevan todo en Excel o en un cuaderno. Esta aplicación centralizaría toda esa información. El usuario puede registrar clientes, crear pedidos, controlar el stock de productos, ver cuánto dinero ingresó en el mes y conocer cuáles son los productos más vendidos. También tendría un panel con estadísticas y alertas cuando el stock esté por agotarse.
+
+Este proyecto te permite practicar rutas para clientes, pedidos, productos y estadísticas; layouts con un panel administrativo; Server Components para mostrar la información del negocio; Client Components para formularios, filtros y búsquedas; API Routes o Server Actions para crear, editar y eliminar datos; Suspense con skeletons mientras cargan las estadísticas o el inventario; middleware para proteger el panel de administración; metadata para SEO y páginas públicas; y optimización de imágenes para las fotos de los productos. Es un proyecto muy completo y muy parecido a aplicaciones que utilizan miles de pequeños comercios.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +40,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
