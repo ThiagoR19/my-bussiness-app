@@ -1,6 +1,6 @@
 Sistema de gestión para emprendimientos (Pedidos + Clientes + Stock)
 
-Muchos emprendimientos pequeños venden por Instagram o WhatsApp y llevan todo en Excel o en un cuaderno. Esta aplicación centralizaría toda esa información. El usuario puede registrar clientes, crear pedidos, controlar el stock de productos, ver cuánto dinero ingresó en el mes y conocer cuáles son los productos más vendidos. También tendría un panel con estadísticas y alertas cuando el stock esté por agotarse.
+Muchos emprendimientos pequeños venden por Instagram o WhatsApp y llevan todo en Excel o en un cuaderno. Esta aplicación centralizaría toda esa información. El usuario podría registrar clientes, crear pedidos, controlar el stock de productos, ver cuánto dinero ingresó en el mes y conocer cuáles son los productos más vendidos. También tendría un panel con estadísticas y alertas cuando el stock esté por agotarse.
 
 Este proyecto te permite practicar rutas para clientes, pedidos, productos y estadísticas; layouts con un panel administrativo; Server Components para mostrar la información del negocio; Client Components para formularios, filtros y búsquedas; API Routes o Server Actions para crear, editar y eliminar datos; Suspense con skeletons mientras cargan las estadísticas o el inventario; middleware para proteger el panel de administración; metadata para SEO y páginas públicas; y optimización de imágenes para las fotos de los productos. Es un proyecto muy completo y muy parecido a aplicaciones que utilizan miles de pequeños comercios.
 
