@@ -1,5 +1,5 @@
 export default function Clients() {
   return (
-    <div>Clients</div>
+    <section>Para bailar la bamba se necesita una bomba de grasa (Clients)</section>
   )
 }
