@@ -1,21 +1,10 @@
 "use client"
 
-import * as React from "react"
-
 import { NavMain } from "@/components/nav-main"
-import { NavProjects } from "@/components/nav-projects"
 import { NavSecondary } from "@/components/nav-secondary"
 import { NavUser } from "@/components/nav-user"
-import {
-  Sidebar,
-  SidebarContent,
-  SidebarFooter,
-  SidebarHeader,
-  SidebarMenu,
-  SidebarMenuButton,
-  SidebarMenuItem,
-} from "@/components/sidebar"
-import { TerminalSquareIcon, BotIcon, BookOpenIcon, Settings2Icon, LifeBuoyIcon, SendIcon, FrameIcon, PieChartIcon, MapIcon, TerminalIcon, CircleDollarSign } from "lucide-react"
+import { Sidebar, SidebarContent, SidebarFooter, SidebarHeader, SidebarMenu, SidebarMenuButton, SidebarMenuItem, } from "@/components/sidebar"
+import { LifeBuoyIcon, SendIcon, Building2, TerminalIcon, CircleDollarSign, UsersRound, ChartColumn, PackageSearch, NotepadText, Truck, HandCoins, ArchiveRestore } from "lucide-react"
 
 const data = {
   user: {
@@ -28,98 +17,41 @@ const data = {
       title: "Clients",
       url: "#",
       icon: (
-        <TerminalSquareIcon
+        <UsersRound
         />
       ),
-      isActive: true,
-      items: [
-        {
-          title: "My clients",
-          url: "#",
-        },
-        {
-          title: "Starred",
-          url: "#",
-        },
-        {
-          title: "Settings",
-          url: "#",
-        },
-      ],
     },
     {
-      title: "Models",
+      title: "Finance",
       url: "#",
       icon: (
-        <BotIcon
+        <CircleDollarSign
         />
       ),
-      items: [
-        {
-          title: "Genesis",
-          url: "#",
-        },
-        {
-          title: "Explorer",
-          url: "#",
-        },
-        {
-          title: "Quantum",
-          url: "#",
-        },
-      ],
     },
     {
-      title: "Documentation",
+      title: "Orders",
       url: "#",
       icon: (
-        <BookOpenIcon
+        <NotepadText
         />
       ),
-      items: [
-        {
-          title: "Introduction",
-          url: "#",
-        },
-        {
-          title: "Get Started",
-          url: "#",
-        },
-        {
-          title: "Tutorials",
-          url: "#",
-        },
-        {
-          title: "Changelog",
-          url: "#",
-        },
-      ],
     },
     {
-      title: "Settings",
+      title: "Products",
       url: "#",
       icon: (
-        <Settings2Icon
+        <PackageSearch
         />
       ),
-      items: [
-        {
-          title: "General",
-          url: "#",
-        },
-        {
-          title: "Team",
-          url: "#",
-        },
-        {
-          title: "Billing",
-          url: "#",
-        },
-        {
-          title: "Limits",
-          url: "#",
-        },
-      ],
+    },
+    {
+      title: "Statistics",
+      url: "#",
+      icon: (
+        <ChartColumn
+        />
+      ),
     },
   ],
   navSecondary: [
@@ -142,26 +74,34 @@ const data = {
   ],
   projects: [
     {
-      name: "Design Engineering",
+      title: "Profile",
       url: "#",
       icon: (
-        <FrameIcon
+        <Building2
         />
       ),
     },
     {
-      name: "Sales & Marketing",
+      title: "Payment Methods",
       url: "#",
       icon: (
-        <PieChartIcon
+        <HandCoins
         />
       ),
     },
     {
-      name: "Travel",
+      title: "Shipping",
       url: "#",
       icon: (
-        <MapIcon
+        <Truck
+        />
+      ),
+    },
+    {
+      title: "Backup",
+      url: "#",
+      icon: (
+        <ArchiveRestore
         />
       ),
     },
@@ -178,8 +118,8 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                 <TerminalIcon className="size-4" />
               </div>
               <div className="grid flex-1 text-left text-sm leading-tight">
-                <span className="truncate font-medium">Acme Inc</span>
-                <span className="truncate text-xs">Enterprise</span>
+                <span className="truncate font-medium">My Bussiness App</span>
+                <span className="truncate text-xs">Crazy Popcorns</span>
               </div>
             </SidebarMenuButton>
           </SidebarMenuItem>
@@ -187,7 +127,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       </SidebarHeader>
       <SidebarContent>
         <NavMain items={data.navMain} />
-        <NavProjects projects={data.projects} />
+        <NavMain items={data.projects} />
         <NavSecondary items={data.navSecondary} className="mt-auto" />
       </SidebarContent>
       <SidebarFooter>
