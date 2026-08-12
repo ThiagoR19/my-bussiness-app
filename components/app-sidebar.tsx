@@ -15,7 +15,7 @@ const data = {
   navMain: [
     {
       title: "Clients",
-      url: "#",
+      url: "/clients",
       icon: (
         <UsersRound
         />
@@ -23,7 +23,7 @@ const data = {
     },
     {
       title: "Finance",
-      url: "#",
+      url: "/finance",
       icon: (
         <CircleDollarSign
         />
@@ -31,7 +31,7 @@ const data = {
     },
     {
       title: "Orders",
-      url: "#",
+      url: "/orders",
       icon: (
         <NotepadText
         />
@@ -39,7 +39,7 @@ const data = {
     },
     {
       title: "Products",
-      url: "#",
+      url: "/products",
       icon: (
         <PackageSearch
         />
@@ -47,7 +47,7 @@ const data = {
     },
     {
       title: "Statistics",
-      url: "#",
+      url: "/statistics",
       icon: (
         <ChartColumn
         />
@@ -75,7 +75,7 @@ const data = {
   projects: [
     {
       title: "Profile",
-      url: "#",
+      url: "/profile",
       icon: (
         <Building2
         />
@@ -83,7 +83,7 @@ const data = {
     },
     {
       title: "Payment Methods",
-      url: "#",
+      url: "/payment-methods",
       icon: (
         <HandCoins
         />
@@ -91,7 +91,7 @@ const data = {
     },
     {
       title: "Shipping",
-      url: "#",
+      url: "/ shipping",
       icon: (
         <Truck
         />
@@ -99,7 +99,7 @@ const data = {
     },
     {
       title: "Backup",
-      url: "#",
+      url: "/backup",
       icon: (
         <ArchiveRestore
         />
